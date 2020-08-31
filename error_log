@@ -1,0 +1,106 @@
+[14-Aug-2020 12:13:26 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[14-Aug-2020 12:20:43 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[14-Aug-2020 12:27:55 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[14-Aug-2020 12:27:55 America/New_York] PHP Notice:  Undefined index: name in /home/jcttzbqd/yuken/contact.php on line 383
+[14-Aug-2020 12:27:55 America/New_York] PHP Notice:  Undefined index: email in /home/jcttzbqd/yuken/contact.php on line 384
+[14-Aug-2020 12:27:55 America/New_York] PHP Notice:  Undefined index: company in /home/jcttzbqd/yuken/contact.php on line 385
+[14-Aug-2020 12:27:55 America/New_York] PHP Notice:  Undefined index: subject in /home/jcttzbqd/yuken/contact.php on line 386
+[14-Aug-2020 12:27:55 America/New_York] PHP Notice:  Undefined index: message in /home/jcttzbqd/yuken/contact.php on line 387
+[14-Aug-2020 12:27:55 America/New_York] PHP Notice:  Undefined index: phone in /home/jcttzbqd/yuken/contact.php on line 388
+[14-Aug-2020 12:27:55 America/New_York] PHP Notice:  Undefined index: zone in /home/jcttzbqd/yuken/contact.php on line 389
+[14-Aug-2020 12:28:43 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[14-Aug-2020 12:29:02 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[14-Aug-2020 12:36:37 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/jcttzbqd/yuken/contact.php on line 414
+[14-Aug-2020 12:36:41 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/jcttzbqd/yuken/contact.php on line 414
+[14-Aug-2020 12:37:51 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/jcttzbqd/yuken/contact.php on line 417
+[14-Aug-2020 12:37:54 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/jcttzbqd/yuken/contact.php on line 417
+[14-Aug-2020 12:38:11 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 05:40:32 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:23:14 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:23:46 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:25:43 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:27:49 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:28:42 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:30:17 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:31:05 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:31:39 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 06:34:04 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 09:03:08 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 09:03:46 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 09:20:11 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 09:24:10 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[15-Aug-2020 13:41:52 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:04:39 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:05:22 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:07:41 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:08:00 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:13:24 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:13:50 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:13:50 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 420
+[16-Aug-2020 04:13:50 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 424
+[16-Aug-2020 04:13:50 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 428
+[16-Aug-2020 04:13:50 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 431
+[16-Aug-2020 04:13:50 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 434
+[16-Aug-2020 04:13:50 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 437
+[16-Aug-2020 04:13:50 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 440
+[16-Aug-2020 04:13:50 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 443
+[16-Aug-2020 04:14:23 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:14:23 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 420
+[16-Aug-2020 04:14:23 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 424
+[16-Aug-2020 04:14:23 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 428
+[16-Aug-2020 04:14:23 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 431
+[16-Aug-2020 04:14:23 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 434
+[16-Aug-2020 04:14:23 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 437
+[16-Aug-2020 04:14:23 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 440
+[16-Aug-2020 04:14:23 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 443
+[16-Aug-2020 04:29:16 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:29:36 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:29:36 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 420
+[16-Aug-2020 04:29:36 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 424
+[16-Aug-2020 04:29:36 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 428
+[16-Aug-2020 04:29:36 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 431
+[16-Aug-2020 04:29:36 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 434
+[16-Aug-2020 04:29:36 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 437
+[16-Aug-2020 04:29:36 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 440
+[16-Aug-2020 04:29:36 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 443
+[16-Aug-2020 04:54:18 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:54:45 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:54:45 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 420
+[16-Aug-2020 04:54:45 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 424
+[16-Aug-2020 04:54:45 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 428
+[16-Aug-2020 04:54:45 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 431
+[16-Aug-2020 04:54:45 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 434
+[16-Aug-2020 04:54:45 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 437
+[16-Aug-2020 04:54:45 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 440
+[16-Aug-2020 04:54:45 America/New_York] PHP Warning:  Use of undefined constant zone - assumed 'zone' (this will throw an Error in a future version of PHP) in /home/jcttzbqd/yuken/contact.php on line 443
+[16-Aug-2020 04:56:29 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/jcttzbqd/yuken/contact.php on line 458
+[16-Aug-2020 04:56:32 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/jcttzbqd/yuken/contact.php on line 458
+[16-Aug-2020 04:56:45 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:57:05 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:57:22 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:58:45 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 04:59:08 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 05:03:40 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 05:13:06 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 05:15:01 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 05:17:12 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 05:27:18 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 05:27:43 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 08:11:18 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 08:33:21 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 08:34:51 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[16-Aug-2020 09:38:09 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[17-Aug-2020 02:31:42 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[17-Aug-2020 06:52:08 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[17-Aug-2020 11:03:22 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[17-Aug-2020 11:03:39 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[17-Aug-2020 11:06:50 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[17-Aug-2020 11:09:33 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[17-Aug-2020 22:12:23 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[18-Aug-2020 02:12:43 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[18-Aug-2020 03:59:55 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[19-Aug-2020 10:18:23 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[19-Aug-2020 10:33:39 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[19-Aug-2020 12:42:28 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[20-Aug-2020 08:36:00 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
+[20-Aug-2020 09:53:22 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/jcttzbqd/yuken/php-mailer/PHPMailerAutoload.php on line 45
