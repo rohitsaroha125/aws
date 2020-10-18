@@ -1,3 +1,27 @@
+<?php
+$ip=$_SERVER['REMOTE_ADDR'];
+
+$fpr=fopen("data.csv","r");
+
+$flag=0;
+
+while($data=fgetcsv($fpr)){
+	foreach($data as $column){
+			if($column==$ip){
+				$flag=1;
+			}
+	}
+}
+
+if($flag==0){
+	$fp=fopen("data.csv","a");
+	fputcsv($fp,array($ip)); 
+	fclose($fp);
+}
+
+fclose($fpr);
+
+?>
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 <head>
@@ -44,29 +68,6 @@
   <!-- Main stylesheet and color file-->
   <link href="assets/css/style.css" rel="stylesheet">
   <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
-  <style>
-      @media screen and (max-width:767px){
-            .about-page-header{
-          padding:80px 0 30px 0 !important;
-      }
-      .mg-top{
-          margin-top:30px;
-      }
-      .about-page-header .full-img{
-              margin-top: 10px;
-    margin-bottom: 10px;
-      }
-      .mg0{
-          margin-top: 30px !important;
-      }
-      .zone{
-          margin-bottom: 40px;
-      }
-      .mg-top1{
-          margin:30px 0px !important;
-      }
-      }
-  </style>
 </head>
 <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
   <main>
@@ -76,25 +77,23 @@
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-left" href="index.html"><img style="padding-bottom: 2px; padding-top: 2px;" class="logo-size" src="assets/images/logo-1.png"></img></a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-left" href="index.php"><img style="padding-left:10px; padding-bottom: 2px; padding-top: 2px;" src="assets/images/logo-1.jpg"></img></a>
         </div>
         <div class="collapse navbar-collapse" id="custom-collapse">
           <ul class="nav navbar-nav navbar-right">
-						<li><a class="section-scroll" href="about.html">About us</a></li>
+						<li><a class="section-scroll" href="about.php">About us</a></li>
 						<li><a class="section-scroll active" href="contact.php">Contact</a></li>
-						<li>
-						    <img src="assets/images/logo-2.png" class="logo-size">
-						</li>
 					</ul>
         </div>
       </div>
     </nav>
     <div class="main">
-      <section class="module bg-dark-60 about-page-header" data-background="assets/images/about.jpg">
+      <section class="module bg-dark-60 about-page-header" data-background="assets/images/about_bg.jpg">
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
               <h2 class="module-title font-alt">Sales and Services|Dealers</h2>
+              <div class="module-subtitle font-serif">Some text here to be added later based on input given by kolben Hydraulics for this section. This has to be noted that it's a draft an everthing can and will be changed based on input given.</div>
             </div>
           </div>
         </div>
@@ -110,7 +109,7 @@
             </div>
           </div>
           <div class="row flexbox">
-            <div class="col-sm- 6 col-md-6 col-lg-6 col-xs-12 zone border-rt">
+            <div class="col-sm- 6 col-md-6 col-lg-6 col-12 border-rt">
               
               <p class="font-alt p-font" >  <br/>  26A, Community Center
                 Phase 1, Mayapuri Indl. Area,
@@ -133,7 +132,7 @@
                   <a href="mailto: biswaranjan_swain@yukenindia.com">biswaranjan_swain@yukenindia.com</a></a></p>
                   <a class="map-btn" href="https://www.google.com/maps/search/6%2F13,+Industrial+Area,+Kirti+Nagar,+New+Delhi-+110+015,+India++Ph:+011-45065008/@28.6544741,77.1456739,17z" target="_blank">View on Map</a>
             </div> -->
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 zone">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-12">
               <h2 class="sub-font font-alt">Mobile Segment Engineer</h2>
               <p class="font-alt p-font">FLAT NO. 803,TOWER-F,
                 ERA REDWOOD RESIDENCY,
@@ -151,7 +150,7 @@
             </div>
           </div>
           <div class="row flexbox">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 zone">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-12">
               <h2 class="sub-font font-alt"> </h2>
               <p class="font-alt p-font">Indraprastha, 46A,
                 Madan Mohan Malaviya Sarani,
@@ -169,13 +168,13 @@
           </div>
 
           <div class="row mg-top">
-            <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-12">
               <h4 class="font-alt main-font">WEST ZONE</h4>
             </div>
           </div>
 
           <div class="row flexbox">
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 zone border-rt">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-12 border-rt">
               <h2 class="sub-font font-alt"></h2>
               <p class="font-alt p-font">H-4, Ansa Industrial Premises,
                 Sakivihar Road, Sakinaka,
@@ -188,7 +187,7 @@
                 <p class="font-alt p-font"><span class="span-font">Email: </span><a href="mailto: anand.m@yukenindia.com">anand.m@yukenindia.com</a></p>
                 <a class="map-btn" href="https://www.google.com/maps/place/Yuken+India+Limited/@19.1089381,72.8865693,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c8397b13ee17:0x837ea72100d6ec4!8m2!3d19.108933!4d72.888758" target="_blank">View on Map</a>
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 zone border-rt">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-12 border-rt">
               <h2 class="sub-font font-alt"></h2>
               <p class="font-alt p-font">111/20, Near Gharda nu ghar,
                 Near Gandhinagar society,
@@ -200,7 +199,7 @@
                 <p class="font-alt p-font"><span class="span-font">Email: </span><a href="mailto: udaykumar.hc@yukenindia.com">udaykumar.hc@yukenindia.com</a></p>
                 <a class="map-btn" href="https://www.google.com/maps/search/111%2F20,+Near+Gharda+nu+ghar,+Near+Gandhinagar+society,+Maninagar(E),+Ahmedabad-+380+008+Gujarat,+India/@22.9956529,72.6153933,17z/data=!3m1!4b1" target="_blank">View on Map</a>
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 zone">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-12">
               <h2 class="sub-font font-alt"></h2>
               <p class="font-alt p-font">Flat-02, Bhagirathi housing
                 complex, Near Kakadepark,
@@ -220,7 +219,7 @@
           </div>
 
           <div class="row flexbox">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 zone ">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-12 ">
               <h2 class="sub-font font-alt"></h2>
               <p class="font-alt p-font">B-80, 2nd Cross, 1st Phase
                 Peenya Industrial Area,
@@ -242,7 +241,7 @@
           </div>
 
           <div class="row flexbox">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 zone ">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-12 ">
               <h2 class="sub-font font-alt">OFFICE</h2>
               <p class="font-alt p-font">Alkhoor Pumps & Hydraulic Machines TR L.L.C,
                 P.O. Box 4726, Sharjah, U.A.E.</p>
@@ -259,12 +258,17 @@
             <div class="col-sm-12 col-md-12 col-lg-12 col-12">
               <h2 class="module-title font-alt mg0">Authorized Service Centers</h2><br/>
             </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-12">
+              <h4 class="font-alt main-font">SOUTH ZONE</h4>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg- col-12">
+              <h4 class="font-alt main-font">NORTH ZONE</h4>
+            </div>
 
           </div>
 
           <div class="row flexbox">
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 zone border-rt">
-                <h4 class="font-alt main-font">SOUTH ZONE</h4>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-12 border-rt mg20">
               <p class="font-alt p-font">Kolben Hydraulics Ltd
                 SB-54, 2nd Cross Road,
                 Peenya 1st Stage,
@@ -283,8 +287,7 @@
                   <a class="map-btn" href="https://www.google.com/maps/place/KOLBEN+HYDRAULICS+LTD./@13.0352956,77.5178821,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae3d2114086b17:0xa05f454a20dbee3f!8m2!3d13.0352904!4d77.5200708" target="_blank">View on Map</a>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 zone ">
-                <h4 class="font-alt main-font">NORTH ZONE</h4>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-12 ">
               <p class="font-alt p-font">Kolben Hydraulics Limited
                 No.6/13,Kirti Nagar Industrial Area,
                 New Delhi – 110015, India</p>
@@ -301,7 +304,7 @@
           <div class="row mg-top1">
             <div class="col-md-12 col-lg-12 col-sm-12 col-12">
                 <h4 class="module-title font-alt mg0">Get in touch</h4><br/>
-                <form method="post" action="./contact.php">
+                <form method="post" action="./contact1.php">
   
                   <div class="messages"></div>
   
@@ -387,82 +390,12 @@
                         </div>
                       </div>
                       <div class="col-md-12">
-                        <button type="submit" class="btn btn-b btn-circle text-uppercase btn-submit" name="submit">Send message</button>
+                        <button type="submit" class="btn btn-b btn-circle text-uppercase" name="submit">Send message</button>
                       </div>
                     </div>
                   </div>
   
                 </form>
-                <div class="confirm" id="confirm">
-                    <?php
-require 'php-mailer/PHPMailerAutoload.php';
-
-if(isset($_POST["submit"]))
-{
-    $mail = new PHPMailer;
-
-$mail->SMTPDebug = 3;                               // Enable verbose debug output
-
-    $name=$_POST["name"];
-    $email=$_POST["email"];
-    $company=$_POST["company"];
-    $subject=$_POST["subject"];
-    $message=$_POST["message"];
-    $phone=$_POST["phone"];
-    $zone=$_POST["zone"];
-    
-    $mail->Host = 'jcttec.com';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'yuken@jcttec.com';                 // SMTP username
-$mail->Password = 'Yuken@123';                           // SMTP password
-$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
-
-$mail->setFrom(''.$email.'', ''.$subject.'');
-$mail->addAddress('yuken@jcttec.com', 'Yuken');
-if($zone=="delhi")
-{
-    $mail->AddCC('rajesh.dixit@yukenindia.com','Rajesh Dixit');   
-}
-else if($zone=="faridabad")
-{
-    $mail->AddCC('vivek.dubey@yukenindia.com','Vivek Dubey');
-}
-else if($zone=="Kolkata"){
-    $mail->AddCC('debasis.dey@yukenindia.com','Debasis Dey');
-}
-else if($zone=="mumbai"){
-    $mail->AddCC('anand.m@yukenindia.com','Anand M.');
-}
-else if($zone=="Ahmedabad"){
-    $mail->AddCC('udaykumar.hc@yukenindia.com','Uday Kumar');
-}
-else if($zone=="pune"){
-    $mail->AddCC('nikhil.c@yukenindia.com','Nikhil C.');
-}
-else if($zone=="bangalore"){
-    $mail->AddCC('vijayasimha_hk@YUKENINDIA.com','Vijay Simha');
-}
-else if($zone=="Sharjah"){
-    $mail->AddCC('jayanthg11@gmail.com','Jayanth G.');
-}
-
-
-$mail->isHTML(true);                                  // Set email format to HTML
-
-$mail->Subject = $subject;
-$mail->Body    = "Name : <b>".$name."</b><br>Email : <b>".$email."</b><br>Phone : <b>".$phone."</b><br> Company : <b>".$company."</b><br> Zone : <b>".$zone."</b><br> Message : <b>".$message."</b>";
-$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-if(!$mail->send()) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-    echo 'Message has been sent';
-}   
-}
-?>
-                </div>
             </div>
           </div>
 
@@ -484,20 +417,6 @@ if(!$mail->send()) {
     JavaScripts
     =============================================
   -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175821968-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-175821968-1');
-</script>
-
-
-
-
   <script src="assets/lib/jquery/dist/jquery.js"></script>
   <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="assets/lib/wow/dist/wow.js"></script>
